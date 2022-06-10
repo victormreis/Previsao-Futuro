@@ -38,7 +38,7 @@ p{
 input, button {
     display: block;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     font-size: 1.25rem;
     border-radius: 4px ;
 }
@@ -57,5 +57,20 @@ button{
 button:hover {
     filter: brightness(1.2);
     cursor: pointer;
+}
+
+#resposta {
+    margin-top: 30px;
+    transition: opacity 1s;
+}
+
+#resposta div {
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 0.8;
+    margin-bottom: 10px;
+   
+    
+
 }
 
