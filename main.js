@@ -33,8 +33,7 @@ function fazerPergunta(){
     const pergunta = "<div>" + inputPergunta.value + "</div>"
 
     const totalRespostas = respostas.length
-    const numAleatorio = Math.floor(Math.random() * totalRespostas)
-    console.log(respostas[numAleatorio])
+    const numAleatorio = Math.floor(Math.random() * totalRespostas)  
     elementResposta.innerHTML = pergunta + respostas[numAleatorio]
     
     setTimeout(function ()  {
